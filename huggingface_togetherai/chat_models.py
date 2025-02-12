@@ -107,7 +107,7 @@ class ChatHuggingFaceTogetherAI(BaseChatModel):
 
     Key init args — completion params:
         model: str
-            Name of HuggingFace model to use. E.g. "deepseek-ai/DeepSeek-R1","meta-llama/Llama-3.3-70B-Instruct-Turb".
+            Name of HuggingFace model to use. E.g. "deepseek-ai/DeepSeek-R1","meta-llama/Llama-3.3-70B-Instruct-Turbo".
         temperature: float
             Sampling temperature. Ranges from 0.0 to 1.0.
         max_tokens: Optional[int]
